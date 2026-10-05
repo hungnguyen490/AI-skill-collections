@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-26T11:02:22.000Z",
-  "total": 2472,
+  "total": 2473,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -63449,6 +63449,41 @@
         "than"
       ],
       "path": "skills/sympy/SKILL.md"
+    },
+    {
+      "id": "system-prompt-lookup",
+      "canonical_id": "system-prompt-lookup",
+      "name": "system-prompt-lookup",
+      "description": "Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.",
+      "category": "research",
+      "risk": "safe",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "Continuum-AI-Corp/OrcaPromptVault",
+      "license": "AGPL-3.0",
+      "license_source": "https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/LICENSE",
+      "tags": [
+        "system-prompts",
+        "tool-schemas",
+        "provenance",
+        "verification",
+        "agent-behaviour"
+      ],
+      "triggers": [
+        "system-prompts",
+        "tool-schemas",
+        "provenance",
+        "verification",
+        "agent-behaviour",
+        "prompt",
+        "lookup",
+        "checks",
+        "what",
+        "shipped",
+        "ai",
+        "product"
+      ],
+      "path": "skills/system-prompt-lookup/SKILL.md"
     },
     {
       "id": "systematic-debugging",
