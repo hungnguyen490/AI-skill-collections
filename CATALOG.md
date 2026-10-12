@@ -2,7 +2,7 @@
 
 Generated at: 2026-09-26T11:02:22.000Z
 
-Total skills: 2472
+Total skills: 2473
 
 ## agent-behavior (5)
 
@@ -2077,7 +2077,7 @@ Total skills: 2472
 | `slo-implementation` | Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets. | critical | community | slo | slo, framework, defining, implementing, level, indicators, slis, objectives, slos, error, budgets |
 | `tool-use-guardian` | FREE — Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate ... | safe | community | reliability, tool-use, error-handling, retries, recovery, agent-infrastructure | reliability, tool-use, error-handling, retries, recovery, agent-infrastructure, guardian, free, intelligent, call, wrapper, monitors |
 
-## research (15)
+## research (16)
 
 | Skill | Description | Risk | Source | Tags | Triggers |
 | --- | --- | --- | --- | --- | --- |
@@ -2095,6 +2095,7 @@ Total skills: 2472
 | `pi-web-search` | Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package. | safe | davidondrej/skills | web-search, pi-agent, research | web-search, pi-agent, research, pi, web, search, give, agents, safe, fetch, installed, access |
 | `research-prompt` | Turn vague research needs into one precise deep-research prompt with context and output criteria. | safe | davidondrej/skills | research, prompting, briefs | research, prompting, briefs, prompt, turn, vague, one, precise, deep, context, output, criteria |
 | `survey-generator` | Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. | safe | dair-ai/dair-academy-plugins | dair-academy, ai, workflow | dair-academy, ai, workflow, survey, generator, generate, source, backed, ml, paper, artifacts, curated |
+| `system-prompt-lookup` | Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use ... | safe | Continuum-AI-Corp/OrcaPromptVault | system-prompts, tool-schemas, provenance, verification, agent-behaviour | system-prompts, tool-schemas, provenance, verification, agent-behaviour, prompt, lookup, checks, what, shipped, ai, product |
 | `youtube-transcript` | Fetch YouTube transcripts through DeepAPI or local fallback tooling and save clean text output. | safe | davidondrej/skills | youtube, transcripts, research | youtube, transcripts, research, transcript, fetch, through, deepapi, local, fallback, tooling, save, clean |
 
 ## reverse-engineering (1)
