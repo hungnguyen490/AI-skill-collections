@@ -53736,6 +53736,39 @@
     "source_type": "self"
   },
   {
+    "id": "system-prompt-lookup",
+    "path": "skills/system-prompt-lookup",
+    "category": "research",
+    "name": "system-prompt-lookup",
+    "description": "Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-09-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    },
+    "source_type": "community",
+    "source_repo": "Continuum-AI-Corp/OrcaPromptVault",
+    "license": "AGPL-3.0",
+    "license_source": "https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/LICENSE",
+    "tags": [
+      "system-prompts",
+      "tool-schemas",
+      "provenance",
+      "verification",
+      "agent-behaviour"
+    ]
+  },
+  {
     "id": "systematic-debugging",
     "path": "skills/systematic-debugging",
     "category": "development-and-testing",
